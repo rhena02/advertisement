@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Enquiries</title>
+</head>
+<body>
+    <header class="top">
+        <div class="navbar">
+            <span class="mini">Rhena</span>
+            <div class="mobile-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+           <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="interest.html">Enquire</a></li>
+                </ul>
+            </nav>  
+        </div>
+        <div class="hero">
+            <img src="assets/images/Loggo.jpeg" alt="">
+        </div>
+    </header>
+    <section id="enquiry">
+        <h2 class="in">I'm Interested</h2>
+        <form action="mailto:hello@rhenaesthetics.com" method="post">
+            <label>Full Name
+                <input type="text" name="name" required>
+            </label>
+
+            <label>Email
+                <input type="email" name="email" required>
+            </label>
+
+            <label>Phone
+                <input type="tel" name="Phone" required>
+            </label>
+
+            <label>Product
+                <select name="product" required>
+                <option value="">Choose a product</option>
+                <option>Beauty Set</option>
+                <option>Beauty Serum</option>
+                <option>Moisturising Cream</option>
+                <option>Facial Oil</option>
+                <option>Beauty Set</option>
+                <option>Facial Cleanser</option>
+                <option>Beauty Brush Set</option>
+                <option>Retinol Serum</option>
+                <option>Anti-aging Kit</option>
+            </select>
+            </label>
+            <label>Message
+                <textarea name="message" rows="3"></textarea>
+            </label>
+            <button class="btn" type="submit">Send Enquiry</button>
+        </section>
+        <footer>
+            <p><i class="fa-solid fa-thumbs-up"></i>Thanks for shopping with us </p>
+        </footer>
+    </form>
+</body>
+</html>
